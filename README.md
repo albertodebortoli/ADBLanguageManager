@@ -8,6 +8,7 @@ Try out the included demo project.
 
 Simple usage:
 
+- create a `Localizable.strings` file for each `*.lproj` folder (e.g. `en.lproj`, `it.lproj`...)
 - import `ADBLanguageManager.h` in your class
 - use as follow
 
@@ -15,11 +16,13 @@ Simple usage:
 NSString *localizedString = [ADBLanguageManager localizedString:@"Hello"];
 ```
 or, much better
+
 ``` objective-c
 NSString *localizedString = ADBLocalizedString(@"Hello");
 ```
 
 To set a language for the application.
+
 ``` objective-c
 [ADBLanguageManager setSelectedLanguage:@"it"];
 ```
