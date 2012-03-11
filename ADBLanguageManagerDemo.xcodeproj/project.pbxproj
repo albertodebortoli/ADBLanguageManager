@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3CF2E10150D21C700B7D8B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CF2E0F150D21C700B7D8B6 /* UIKit.framework */; };
+		D3CF2E12150D21C700B7D8B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CF2E11150D21C700B7D8B6 /* Foundation.framework */; };
+		D3CF2E14150D21C700B7D8B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3CF2E13150D21C700B7D8B6 /* CoreGraphics.framework */; };
+		D3CF2E2E150D220100B7D8B6 /* ADBLanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3CF2E2D150D220100B7D8B6 /* ADBLanguageManager.m */; };
+		D3E2FECC150D4912005B4145 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E2FEC7150D48FF005B4145 /* AppDelegate.m */; };
+		D3E2FECD150D4915005B4145 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E2FEC8150D48FF005B4145 /* ViewController.m */; };
+		D3E2FEE0150D4959005B4145 /* ADBLanguageManagerDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3E2FECE150D4959005B4145 /* ADBLanguageManagerDemo-Info.plist */; };
+		D3E2FEE1150D4959005B4145 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E2FECF150D4959005B4145 /* main.m */; };
+		D3E2FEE2150D4959005B4145 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3E2FED1150D4959005B4145 /* Localizable.strings */; };
+		D3E2FEE3150D4959005B4145 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3E2FED4150D4959005B4145 /* Localizable.strings */; };
+		D3E2FEE4150D4959005B4145 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3E2FED7150D4959005B4145 /* Localizable.strings */; };
+		D3E2FEE5150D4959005B4145 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3E2FEDA150D4959005B4145 /* Localizable.strings */; };
+		D3E2FEE6150D4959005B4145 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3E2FEDD150D4959005B4145 /* Localizable.strings */; };
+		D3E2FEE7150D49D1005B4145 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E2FEC9150D48FF005B4145 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3CF2E0B150D21C700B7D8B6 /* ADBLanguageManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADBLanguageManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CF2E0F150D21C700B7D8B6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3CF2E11150D21C700B7D8B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3CF2E13150D21C700B7D8B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3CF2E2C150D220100B7D8B6 /* ADBLanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADBLanguageManager.h; sourceTree = "<group>"; };
+		D3CF2E2D150D220100B7D8B6 /* ADBLanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADBLanguageManager.m; sourceTree = "<group>"; };
+		D3E2FEC7150D48FF005B4145 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ADBLanguageManagerDemo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		D3E2FEC8150D48FF005B4145 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ADBLanguageManagerDemo/ViewController.m; sourceTree = SOURCE_ROOT; };
+		D3E2FEC9150D48FF005B4145 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ViewController.xib; path = ADBLanguageManagerDemo/ViewController.xib; sourceTree = SOURCE_ROOT; };
+		D3E2FECA150D48FF005B4145 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ADBLanguageManagerDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		D3E2FECB150D48FF005B4145 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ADBLanguageManagerDemo/ViewController.h; sourceTree = SOURCE_ROOT; };
+		D3E2FECE150D4959005B4145 /* ADBLanguageManagerDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ADBLanguageManagerDemo-Info.plist"; path = "ADBLanguageManagerDemo/ADBLanguageManagerDemo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D3E2FECF150D4959005B4145 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ADBLanguageManagerDemo/main.m; sourceTree = SOURCE_ROOT; };
+		D3E2FED2150D4959005B4145 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = Localizable.strings; sourceTree = "<group>"; };
+		D3E2FED5150D4959005B4145 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		D3E2FED8150D4959005B4145 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
+		D3E2FEDB150D4959005B4145 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = Localizable.strings; sourceTree = "<group>"; };
+		D3E2FEDE150D4959005B4145 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = Localizable.strings; sourceTree = "<group>"; };
+		D3E2FEDF150D4959005B4145 /* ADBLanguageManagerDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ADBLanguageManagerDemo-Prefix.pch"; path = "ADBLanguageManagerDemo/ADBLanguageManagerDemo-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3CF2E08150D21C700B7D8B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CF2E10150D21C700B7D8B6 /* UIKit.framework in Frameworks */,
+				D3CF2E12150D21C700B7D8B6 /* Foundation.framework in Frameworks */,
+				D3CF2E14150D21C700B7D8B6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3CF2E00150D21C700B7D8B6 = {
+			isa = PBXGroup;
+			children = (
+				D3CF2E2C150D220100B7D8B6 /* ADBLanguageManager.h */,
+				D3CF2E2D150D220100B7D8B6 /* ADBLanguageManager.m */,
+				D3CF2E15150D21C700B7D8B6 /* ADBLanguageManagerDemo */,
+				D3CF2E0E150D21C700B7D8B6 /* Frameworks */,
+				D3CF2E0C150D21C700B7D8B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3CF2E0C150D21C700B7D8B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3CF2E0B150D21C700B7D8B6 /* ADBLanguageManagerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3CF2E0E150D21C700B7D8B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3CF2E0F150D21C700B7D8B6 /* UIKit.framework */,
+				D3CF2E11150D21C700B7D8B6 /* Foundation.framework */,
+				D3CF2E13150D21C700B7D8B6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3CF2E15150D21C700B7D8B6 /* ADBLanguageManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D3E2FECA150D48FF005B4145 /* AppDelegate.h */,
+				D3E2FEC7150D48FF005B4145 /* AppDelegate.m */,
+				D3E2FECB150D48FF005B4145 /* ViewController.h */,
+				D3E2FEC8150D48FF005B4145 /* ViewController.m */,
+				D3E2FEC9150D48FF005B4145 /* ViewController.xib */,
+				D3CF2E16150D21C700B7D8B6 /* Supporting Files */,
+			);
+			name = ADBLanguageManagerDemo;
+			path = ADBLanguageMangerDemo;
+			sourceTree = "<group>";
+		};
+		D3CF2E16150D21C700B7D8B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3E2FEDF150D4959005B4145 /* ADBLanguageManagerDemo-Prefix.pch */,
+				D3E2FECE150D4959005B4145 /* ADBLanguageManagerDemo-Info.plist */,
+				D3E2FECF150D4959005B4145 /* main.m */,
+				D3E2FED0150D4959005B4145 /* de.lproj */,
+				D3E2FED3150D4959005B4145 /* en.lproj */,
+				D3E2FED6150D4959005B4145 /* es.lproj */,
+				D3E2FED9150D4959005B4145 /* fr.lproj */,
+				D3E2FEDC150D4959005B4145 /* it.lproj */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3E2FED0150D4959005B4145 /* de.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D3E2FED1150D4959005B4145 /* Localizable.strings */,
+			);
+			name = de.lproj;
+			path = ADBLanguageManagerDemo/de.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		D3E2FED3150D4959005B4145 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D3E2FED4150D4959005B4145 /* Localizable.strings */,
+			);
+			name = en.lproj;
+			path = ADBLanguageManagerDemo/en.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		D3E2FED6150D4959005B4145 /* es.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D3E2FED7150D4959005B4145 /* Localizable.strings */,
+			);
+			name = es.lproj;
+			path = ADBLanguageManagerDemo/es.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		D3E2FED9150D4959005B4145 /* fr.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D3E2FEDA150D4959005B4145 /* Localizable.strings */,
+			);
+			name = fr.lproj;
+			path = ADBLanguageManagerDemo/fr.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		D3E2FEDC150D4959005B4145 /* it.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D3E2FEDD150D4959005B4145 /* Localizable.strings */,
+			);
+			name = it.lproj;
+			path = ADBLanguageManagerDemo/it.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3CF2E0A150D21C700B7D8B6 /* ADBLanguageManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3CF2E29150D21C700B7D8B6 /* Build configuration list for PBXNativeTarget "ADBLanguageManagerDemo" */;
+			buildPhases = (
+				D3CF2E07150D21C700B7D8B6 /* Sources */,
+				D3CF2E08150D21C700B7D8B6 /* Frameworks */,
+				D3CF2E09150D21C700B7D8B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADBLanguageManagerDemo;
+			productName = ADBLanguageMangerDemo;
+			productReference = D3CF2E0B150D21C700B7D8B6 /* ADBLanguageManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3CF2E02150D21C700B7D8B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "H-umus";
+			};
+			buildConfigurationList = D3CF2E05150D21C700B7D8B6 /* Build configuration list for PBXProject "ADBLanguageManagerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				it,
+				de,
+				es,
+				fr,
+			);
+			mainGroup = D3CF2E00150D21C700B7D8B6;
+			productRefGroup = D3CF2E0C150D21C700B7D8B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3CF2E0A150D21C700B7D8B6 /* ADBLanguageManagerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3CF2E09150D21C700B7D8B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E2FEE0150D4959005B4145 /* ADBLanguageManagerDemo-Info.plist in Resources */,
+				D3E2FEE2150D4959005B4145 /* Localizable.strings in Resources */,
+				D3E2FEE3150D4959005B4145 /* Localizable.strings in Resources */,
+				D3E2FEE4150D4959005B4145 /* Localizable.strings in Resources */,
+				D3E2FEE5150D4959005B4145 /* Localizable.strings in Resources */,
+				D3E2FEE6150D4959005B4145 /* Localizable.strings in Resources */,
+				D3E2FEE7150D49D1005B4145 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3CF2E07150D21C700B7D8B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CF2E2E150D220100B7D8B6 /* ADBLanguageManager.m in Sources */,
+				D3E2FECC150D4912005B4145 /* AppDelegate.m in Sources */,
+				D3E2FECD150D4915005B4145 /* ViewController.m in Sources */,
+				D3E2FEE1150D4959005B4145 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3E2FED1150D4959005B4145 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3E2FED2150D4959005B4145 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D3E2FED4150D4959005B4145 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3E2FED5150D4959005B4145 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D3E2FED7150D4959005B4145 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3E2FED8150D4959005B4145 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D3E2FEDA150D4959005B4145 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3E2FEDB150D4959005B4145 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D3E2FEDD150D4959005B4145 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3E2FEDE150D4959005B4145 /* it */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3CF2E27150D21C700B7D8B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3CF2E28150D21C700B7D8B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3CF2E2A150D21C700B7D8B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADBLanguageManagerDemo/ADBLanguageManagerDemo-Prefix.pch";
+				INFOPLIST_FILE = "ADBLanguageManagerDemo/ADBLanguageManagerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = ADBLanguageManagerDemo;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3CF2E2B150D21C700B7D8B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADBLanguageManagerDemo/ADBLanguageManagerDemo-Prefix.pch";
+				INFOPLIST_FILE = "ADBLanguageManagerDemo/ADBLanguageManagerDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = ADBLanguageManagerDemo;
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3CF2E05150D21C700B7D8B6 /* Build configuration list for PBXProject "ADBLanguageManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CF2E27150D21C700B7D8B6 /* Debug */,
+				D3CF2E28150D21C700B7D8B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3CF2E29150D21C700B7D8B6 /* Build configuration list for PBXNativeTarget "ADBLanguageManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3CF2E2A150D21C700B7D8B6 /* Debug */,
+				D3CF2E2B150D21C700B7D8B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3CF2E02150D21C700B7D8B6 /* Project object */;
+}
